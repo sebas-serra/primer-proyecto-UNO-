@@ -36,7 +36,7 @@ class Juego:
         self.bot.pack(anchor="s")
 
     def iniciarjuego(self):
-        for _ in range(4):
+        for _ in range(2):
             humano = Jugador.Player()
             humano.iniciar(self.coso)
             self.jugadores.append(humano)
